@@ -1,18 +1,44 @@
 # interpolation
-puts "Pesan apa?"
-menu = gets.chomp
-puts "Berapa banyak?"
-jumlah = gets.chomp.to_i
-p "pesanan kamu adalah #{menu}, totalnya #{jumlah * 100} dolar"
+# puts "Pesan apa?"
+# menu = gets.chomp
+# puts "Berapa banyak?"
+# jumlah = gets.chomp.to_i
+# p "pesanan kamu adalah #{menu}, totalnya #{jumlah * 100} dolar"
 
-# upcasess
+# str = "  belajar RUBY yuk!   "
+# # upcasess
+# p str.upcase
 
-# downcases
+# # downcases
+# p str.downcase
 
-# swapcase
+# # swapcase
+# p str.swapcase
 
-# reverse
+# # reverse
+# p str.reverse
 
-# strip 
+# # strip 
+# p str.strip
 
-# split
+# # split
+# p str.split
+
+# concat
+# first_name = "Harry"
+# last_name = "Potter"
+# # p first_name.concat(last_name)
+# # p first_name + last_name
+# # p first_name << last_name << " is Wizard"
+
+# # prepend
+# # p first_name.prepend(last_name)
+# p last_name.prepend(first_name)
+
+# [ ]
+kalimat = "budi membeli sayur di family mart"
+p kalimat[kalimat.length - 1 ]
+p kalimat[4]
+
+# include?
+p kalimat.include?("joko")
