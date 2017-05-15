@@ -18,10 +18,10 @@
 # # reverse
 # p str.reverse
 
-# # strip 
+# # strip: menghilangkan spasi di awal dan akhir kalimat
 # p str.strip
 
-# # split
+# # split: membagi kalimat menjadi per kata
 # p str.split
 
 # concat
