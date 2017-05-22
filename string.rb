@@ -41,4 +41,4 @@ p kalimat[kalimat.length - 1 ]
 p kalimat[4]
 
 # include?
-p kalimat.include?("joko")
+# p kalimat.include?("joko")
