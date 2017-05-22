@@ -39,9 +39,9 @@
 # ganjil_apa_genap(6)
 # ganjil_apa_genap(6787)
 
-angka = 10
-buah = "jeruk"
-enak = true
+# angka = 10
+# buah = "jeruk"
+# enak = true
 
 # AND -> &&
 
@@ -59,7 +59,17 @@ enak = true
 # end
 
 # NOT -> !
-puts !enak
+# puts !enak
+
+menu = "mulai"
+
+while menu != "exit"
+    puts "Welcome..."
+    print "Masukan menu: "
+    menu = gets.chomp
+end
+
+puts "Anda telah keluar dari program"
 
 
 
